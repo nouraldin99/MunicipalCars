@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="?actionBarSize"
+       android:gravity="center"
+       android:orientation="horizontal"
+       android:layout_marginTop="10dp"
+       android:paddingHorizontal="16dp">
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/btnProfile"
+          android:layout_width="?actionBarSize"
+          android:layout_height="?actionBarSize"
+          app:cardElevation="0dp"
+          app:cardCornerRadius="12dp"
+          app:cardBackgroundColor="@color/hint2"
+          >
+         <androidx.appcompat.widget.AppCompatImageView
+             android:id="@+id/imgUser"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/no_image"
+            />
+
+
+      </androidx.cardview.widget.CardView>
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/txtNameVideo"
+          android:fontFamily="@font/cairo_bold"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="الرئيسية"
+          android:textColor="@color/black"
+          android:textSize="17sp" />
+      <androidx.appcompat.widget.AppCompatImageButton
+          android:id="@+id/btnAddCar"
+          android:layout_width="?actionBarSize"
+          android:layout_height="?actionBarSize"
+          android:background="@color/ttttt"
+          android:src="@drawable/add" />
+
+   </LinearLayout>
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/rvCars"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+      android:layout_weight="1"
+      />
+
+</LinearLayout>

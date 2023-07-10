@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "892156259363",
+    "project_id": "cars-c4381",
+    "storage_bucket": "cars-c4381.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892156259363:android:82259f7836ef96043ed596",
+        "android_client_info": {
+          "package_name": "com.amjadkw.carB"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892156259363-4b0r3uokihghb1ijofl3b5enksvqhdeh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRyEJAZ6RuJJtsu3E6sGKe-mWEXQSoK_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892156259363-4b0r3uokihghb1ijofl3b5enksvqhdeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF01A54F</color>
+    <color name="primary60">#9901A54F</color>
+    <color name="primary30">#3301A54F</color>
+    <color name="primary70">#B301A54F</color>
+    <color name="primaryDark">#272727</color>
+    <color name="gray">#ECECEC</color>
+    <color name="secondary">#FF853FE4</color>
+    <color name="primaryWhite">#FFE4EAF0</color>
+    <color name="primary05">#0D01A54F</color>
+    <color name="primary_light">#B301A54F</color>
+    <color name="primary_a">#006161</color>
+    <color name="black">#FF000000</color>
+    <color name="black04">#66000000</color>
+    <color name="black_hint">#99000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white55">#8FFFFFFF</color>
+    <color name="red">#FFF04242</color>
+    <color name="green">#FF3AE83F</color>
+    <color name="yellow">#FFEAE983</color>
+    <color name="dead">#FF4B4B4B</color>
+    <color name="hint">#FF6F6F6F</color>
+    <color name="hint2">#FFEFEFEF</color>
+    <color name="hint_background">#FFF2F5F3</color>
+    <color name="et_color">#FFF7F8F7</color>
+    <color name="ttttt">#006F6F6F</color>
+    <color name="hint_light">#FFF7F8F7</color>
+</resources>
